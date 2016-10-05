@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+#grid {
+  background-size: 5em 5em;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+  box-sizing: border-box;
+  margin: 0;
+  padding: .001em;
+  width: 50em;
+  height: 50em;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.ball {
+  border-radius: 50%;
+  width: 4em;
+  height: 4em;
+  background: #F00;
+  margin: .5em;
+  box-sizing: border-box;
+  position: absolute;
+}
